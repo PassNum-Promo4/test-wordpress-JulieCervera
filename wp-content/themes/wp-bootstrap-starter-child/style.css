@@ -1,0 +1,55 @@
+/*
+ Theme Name:   wp-bootstrap-starter Child
+ Theme URI:    
+ Description:  wp-bootstrap-starter Child Theme
+ Author:       Julie Cervera
+ Author URI:   
+ Template:     wp-bootstrap-starter
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, responsive-layout, accessibility-ready
+ Text Domain:  wp-bootstrap-starter-child
+*/
+
+@font-face {
+  font-family: 'Oswald', sans-serif;
+  src : url('https://fonts.googleapis.com/css?family=Oswald');
+}
+
+#masthead .navbar-nav > li > a {
+    color: #6E6568;
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  #masthead .navbar-nav > li > a:hover, #masthead .navbar-nav > li.current_page_item > a {
+    color: #D23641;
+    font-weight: 600;
+    /*background: #f9f9f9;*/
+  }
+
+
+  #page-sub-header h1 {
+    line-height: 1;
+    font-size: 4rem;
+    color: #EAD3A8;
+    margin: 0 0 1rem;
+    border: 0;
+    padding: 0;
+  }
+
+  .technologies {
+    color: #D23641;
+    
+  }
+
+  h1.entry-title {
+    font-size: 21px;
+    border-bottom: 1px solid #D23641;
+  }
+
+  h1, h2 {
+    font-family: Oswald;
+  }
